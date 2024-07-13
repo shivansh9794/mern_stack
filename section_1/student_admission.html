@@ -6,37 +6,75 @@
     <title>Student_Admission</title>
 </head>
 <body>
+
     <h2>Student Admission Form</h2>
+    <hr>
 
     <form>
 
-        <label for="name">student name :</label>
-        <input type="text" name="name" id="name">
+        <div>
+            <label for="name">Student Name :</label>
+            <input type="text" id="name" required minlength="3">
+        </div>
 
         <br>
+
+        <div>
+            <label for="fn">Fathers Name :</label>
+            <input type="text" name="class" id="fn" required>
+        </div>
+        
         <br>
-        <label for="id">Student_ID :</label>
-        <input type="number" name="class" id="id">
+
+        <div>
+            <label for="lab">Gender : </label>
+            <label for="gender1">Male:</label>
+            <input type="radio" name="check" id="gender1">
+            <label for="gender2">Female:</label>
+            <input type="radio" name="check" id="gender2">
+        </div>
+      
+        <br>
+
+        <div>
+            <label for="Email">Email : </label>
+            <input type="text" name="Email" id="email"required>
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="dat">Enter DOB : </label>
+            <input type="date" id="dat"required>            
+        </div>
 
         <br>
+
+        <div>
+            <label for="last Qualification">last Qualification :</label>
+            <select name="last Qualification" id="last Qualification">
+                <option value="t">12th</option>
+                <option value="dep">Deploma</option>
+            </select>
+        </div>
+        
         <br>
-        <label for="lab">Gender :  </label>
-        <input type="color" name="na" id="lab">
 
-        <label for="gender1">Male:</label>
-        <input type="radio" name="Male" id="gender1">
-
-        <label for="gender2">Female:</label>
-        <input type="checkbox" name="Female" id="gender2">
+        <div>
+            <label for="mob">Mobile No. :</label>
+            <input type="number" name="Num" id="mob">
+        </div>
 
         <br>
-        <br>
-        <label for="Email">Email : </label>
-        <input type="text" name="Email" id="email">
+        <hr>
+        
+        <div>
+            
+            <input type="submit">
+            <input type="reset">
+            
+        </div>
 
-
-        <label for="dat"> enter date : </label>
-        <input type="date" name="" id="dat">
     </form>
 </body>
 </html>
