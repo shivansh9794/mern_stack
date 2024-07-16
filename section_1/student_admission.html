@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student_Admission</title>
+    <style>
+        h2{
+            text-align: center;
+            background-color: bisque;
+        }
+    </style>
 </head>
 <body>
 
-    <h2>Student Admission Form</h2>
+    <h2 style="color: rgb(37, 2, 94);">Student Admission Form</h2>
+
     <hr>
 
     <form>
 
         <div>
+
             <label for="name">Student Name :</label>
             <input type="text" id="name" required minlength="3">
         </div>
@@ -55,6 +63,7 @@
             <select name="last Qualification" id="last Qualification">
                 <option value="t">12th</option>
                 <option value="dep">Deploma</option>
+                <option value="">10th</option>
             </select>
         </div>
         
@@ -66,6 +75,45 @@
         </div>
 
         <br>
+
+        <div>
+
+            <label for="col">Previous College</label>
+            <input type="text" id="col" list="coll">
+
+
+            <datalist id="coll">
+                <option>lpcps</option>
+                <option>svmic</option>
+                <option>aps</option>
+                <option>lps</option>
+            </datalist>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="">Feedback :</label>
+            <textarea name="feedback" id="feed"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="cbox">Terms and Conditions :</label>
+            <input type="checkbox" id="cbox" required>
+
+            <details>
+                <summary>
+                   view terms and Conditions
+                </summary>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut fuga beatae aliquam eos, similique ea inventore suscipit repellat placeat facilis ex. Officiis, dolorem? Rem pariatur dolor cumque eligendi aut vitae.
+                </p>
+            </details>
+        </div>
+
+        <br>
         <hr>
         
         <div>
@@ -74,6 +122,8 @@
             <input type="reset">
             
         </div>
+
+        
 
     </form>
 </body>
