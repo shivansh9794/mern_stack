@@ -1,0 +1,15 @@
+.btn{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5%;
+    text-align: center;
+
+}
+
+.butto{
+    align-self: center;
+    background-color: aqua;
+    color: #5e0808;
+    border-radius: 0%;
+    
+}
