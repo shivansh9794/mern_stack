@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conatact Us</title>
+
+    <style>
+
+        *{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        article{
+            display: flex;
+            align-items: center;
+            width: 70%;
+
+        }
+
+        .hero-section{
+            color: white;
+            height: 70vh;
+            /* display: flex; 
+            flex-direction: column; */
+            justify-content: center;
+            align-items: center;
+            width: 40%;
+            padding: 0px 30px;
+            gap: 20px;
+            background-color: rgb(20, 22, 92);
+            background-position: 100%;
+            border-top-left-radius: 40px;
+            border-bottom-left-radius: 40px;
+        }
+
+        .her2{
+
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+            padding: 0px 30px;
+            gap: 20px;
+            background-color: rgba(255, 251, 2, 0.692);
+            border-bottom-right-radius:40px;
+            border-top-right-radius: 40px;
+            
+        }
+        
+      
+
+
+        .hero-title{
+            font-size: 30px;
+            margin: 0;
+            color: rgb(255, 0, 0);
+            padding-bottom: 40px;
+        }
+
+        .hero-subtitle{
+
+            margin: 0;
+        }
+
+        .hero-btn{
+            background-color: black;
+            color: aliceblue;
+            border-radius: 5px;
+            border: none;
+            padding: 10px 20px;
+        }
+
+        
+        .title{
+
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 35px;
+
+        }
+
+        .card{
+
+            padding: 40px;
+            border-radius: 10px;
+            background-color: rgb(255, 255, 255);
+            align-items: center;
+
+        }
+
+        .inputBox{
+            width: 100%;
+            margin: 5px 0px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        .btn{
+            background-color: #1d02b8;
+            color: white;
+            margin: auto;
+            border-radius: 10px;
+            size: 30px;
+            border: none;
+            display: block;
+            width: 30%;
+        }
+
+        .labl{
+            float: left;
+        }
+        #lab{
+            color: red;
+        }
+
+        .ph{
+            display: inline-flex;
+            padding-top: 30px;
+        }
+        #p{
+            color: red;
+        }
+
+        .lod{
+            display: flex;
+            padding-top: 30px;
+        }
+        #loc{
+            color: red;;
+        }
+
+    </style>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+
+</head>
+
+
+<body>
+    
+    <main class="main">
+        
+        <article class="article">
+
+            <section class="hero-section">
+
+                <div  class="hero-title"><h1>CONTACT US</h1></div>
+
+                <div class="labl" id="lab">Email : </div>
+                <div class="labl"> abcdefg123@gmail.com</div>
+
+                <br>
+                
+                <div class="ph" id="p">Phone :</div>
+                <div class="ph"> 9988776655</div>
+
+                <br>
+
+                <div class="lod"><p id="loc">Location:</p> <p>isuzu market suzu road jdkd 33957 near inox lucknow utter pradesh india</p></div>
+
+            </section>
+
+
+
+            <section class="her2">
+                
+
+
+                <div class="card">
+
+                    <h1 class="title">Get In Touch With Us</h1>
+
+                    <form >
+
+                        <div>
+                            <label for="name">Name :</label>
+                            <input type="text" name="" class="inputBox" id="name">
+                        </div>
+    
+                        <div >
+                            <label for="email">Email :</label>
+                            <input type="email" name=""class="inputBox" id="email">
+                        </div>
+    
+                        <div >
+                            <label for="msg">Message :</label>
+                            <textarea name="" id="msg" class="inputBox"></textarea>
+                        </div>
+    
+                        <div>
+                            <button  class="btn">submit</button>
+                        </div>
+                       
+                    </form>
+                </div>
+                
+            </section>
+        
+        </article>
+    
+    </main>
+
+
+</body>
+</html>
