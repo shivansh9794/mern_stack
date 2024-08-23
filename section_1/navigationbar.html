@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+
+        .navbar{
+            background-color: rgba(0, 0, 0, 0.856);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            margin: 10px 40px;
+            height: 60px;
+        }
+
+        .navbar ul{
+            overflow: auto;
+            width: 80%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar li{
+            float: left;
+            list-style: none;
+            margin: 13px 45px;
+        }
+
+        
+
+        .navbar li a{
+            text-decoration: none;
+            padding: 4px;
+            color: rgb(255, 208, 0);
+        }
+
+    </style>
+
+</head>
+
+<body>
+    
+    <!-- HEADER -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <ul>
+
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+       <!-- INFO -->
+     
+       <div class="grid grid-cols-12 max-w-[80%] mx-auto">
+
+        <div class="col-span-12 md:col-span-8 my-auto order-last md:order-first md:text-left">
+
+            <h1 class="text-5xl font-bold mt-4 text-left hover:text-center">HEADPHONES</h1>
+
+            <p class="py-7 italic hover:font-bold">boAt Lifestyle is an Indian company that sells audio products and wearables, including headphones, earphones, speakers, smartwatches, and power banks.boAt is known for its creative designs, quality craftsmanship, and reasonable prices. </p>
+
+            <div class="flex gap-8 justify-end md:justify-end sm:justify-start mb-5">
+
+                <button class="py-2 px-4 bg-blue-500 text-white rounded-md">Learn More</button>
+                <button class="py-2 px-4 bg-yellow-500 text-white rounded-md">Explore</button>
+
+            </div>
+
+        </div>
+
+        <div class="col-span-4">
+
+            <img class="w-full" src="https://www.shutterstock.com/shutterstock/videos/1054460270/thumb/1.jpg?ip=x480" alt="">
+
+        </div>
+ 
+    </div>
+
+    <!-- CONTENT -->
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 max-w-[90%] mx-auto mb-5 ">
+
+        <div class="border-2 shadow rounded-md">
+            <img class="w-full h-95 object-contain" src="https://d2xamzlzrdbdbn.cloudfront.net/products/27b358bf-f7dd-47e6-92d9-4e5c8ff3546222271331_416x416.jpg" alt="">
+
+            <div class="p-2">
+                <p class="border text-lg text-gray-500 rounded-full w-fit px-4">wireless</>
+                <p class="text-2xl">HEADPHONES</p>
+                <p class="text-2xl font-bold mt-4">₹1999</p>
+
+
+                <div class="mt-4 gap-4 flex justify-end ">
+                    <button class="py-1 px-3 border border-blue-500  rounded-full text-blue-500">Buy Now</button>
+                    <button class="py-1 px-3 border bg-blue-500  rounded-full text-white">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-2 shadow rounded-md">
+            <img class="w-full h-95 object-contain" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/131_f04f74fd-45d4-4614-85cf-6ccf69c4cf90.jpg?v=1691395049" alt="">
+
+            <div class="p-2">
+                <p class="border text-lg text-gray-500 rounded-full w-fit px-4">wireless</>
+                <p class="text-2xl">HEADPHONES</p>
+                <p class="text-2xl font-bold mt-4">₹1999</p>
+
+
+                <div class="mt-4 gap-4 flex justify-end ">
+                    <button class="py-1 px-3 border border-blue-500  rounded-full text-blue-500">Buy Now</button>
+                    <button class="py-1 px-3 border bg-blue-500  rounded-full text-white">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-2 shadow rounded-md">
+            <img class="w-full h-95 object-contain" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_161.jpg?v=1686297917" alt="">
+
+            <div class="p-2">
+                <p class="border text-lg text-gray-500 rounded-full w-fit px-4">wireless</>
+                <p class="text-2xl">HEADPHONES</p>
+                <p class="text-2xl font-bold mt-4">₹1999</p>
+
+
+                <div class="mt-4 gap-4 flex justify-end ">
+                    <button class="py-1 px-3 border border-blue-500  rounded-full text-blue-500">Buy Now</button>
+                    <button class="py-1 px-3 border bg-blue-500  rounded-full text-white">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-2 shadow rounded-md">
+            <img class="w-full h-95 object-contain" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_141.png?v=1703145765" alt="">
+
+            <div class="p-2">
+                <p class="border text-lg text-gray-500 rounded-full w-fit px-4">wireless</>
+                <p class="text-2xl">HEADPHONES</p>
+                <p class="text-2xl font-bold mt-4">₹1999</p>
+
+
+                <div class="mt-4 gap-4 flex justify-end ">
+                    <button class="py-1 px-3 border border-blue-500  rounded-full text-blue-500">Buy Now</button>
+                    <button class="py-1 px-3 border bg-blue-500  rounded-full text-white">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

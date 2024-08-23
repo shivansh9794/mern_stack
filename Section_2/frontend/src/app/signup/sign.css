@@ -1,0 +1,44 @@
+.nav{
+    display: flex;
+    border: 1px solid pink;
+    height: 60px;
+    margin: 10px;
+    border-radius: 30px;
+    margin: 10;
+    background-color: pink;
+}
+
+#A1{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    
+}
+#A1:hover{
+    color: blue; 
+}
+
+
+#head{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid green;
+}
+
+#para{
+    text-align: center;
+    border: 1px solid blue;
+    color: blueviolet;
+    font-weight: bold;
+    
+}
+
+#YTlogo{
+    height:40px;
+    width: 15%;
+
+}

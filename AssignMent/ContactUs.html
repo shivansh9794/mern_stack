@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact US</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+
+<body class="grid place-items-center h-screen ">
+
+
+    <div class="grid border border-red-900 w-[40%] place-items-center bg-green-100 rounded-2xl shadow-xl shadow-cyan-500/50" >
+
+        <!-- form-->
+   99
+        <h1 class="font-bold text-3xl mb-12 text-red-900">CONTACT US</h1>
+
+        <form>
+
+            <div class="grid gap-6 mb-6 md:grid-cols-2">
+        
+                <!-- NAME -->
+                <div>
+
+                    <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 ">First name :</label>
+
+                    <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-3" placeholder="First Name" required />
+
+                </div>
+        
+                <div>
+
+                    <label for="last_name" class="block mb-2 text-sm font-medium text-gray-900">Last name :</label>
+
+                    <input type="text" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-3" placeholder="Last name" required />
+
+                </div>
+        
+                <!-- NUMBER -->
+                <div>
+
+                    <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 ">Phone number :</label>
+
+                    <input type="number" id="phone" class="bg-gray-50 border border-gray-300 text-white-900 text-sm rounded-lg block w-full p-3" placeholder="1234567890" required />
+
+                </div>
+
+                <!-- ADDRESS -->
+                <div>
+
+                    <label class="text-gray-900 font-medium text-sm block mb-2" for="address">Address :</label>
+                    <input type="text" id="address" class="bg-gray-50 border border-gray-300 rounded-lg text-sm block w-full p-3" placeholder="Address">
+
+                </div>
+        
+            </div>
+        
+
+            <!-- EMAIL -->
+            <div class="mb-6">
+
+                <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Email address :</label>
+
+                <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-3" placeholder="abc123@gmail.com" required />
+
+            </div> 
+        
+            <!-- PASSWORD -->
+            <div class="mb-6">
+
+                <label for="password" class="block mb-2 text-sm font-medium text-gray-900">Password :</label>
+
+                <input type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-3" placeholder="•••••••••" required />
+
+            </div> 
+
+            <!-- CHECKBOX and TERMS & CONDITIONS -->
+            <div class="flex mb-6">
+
+                    <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50" required />
+
+                    <label for="remember" class="ms-2 text-sm font-medium text-black">I agree with the <a href="#" class="text-blue-600 hover:text-red-900">terms and conditions</a>.</label>
+
+            </div>
+
+            <!-- BUTTON -->
+            <button type="submit" class="text-white bg-blue-700 font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center mb-6">Submit</button>
+            
+        </form>
+
+    </div>
+
+
+</body>
+</html>
